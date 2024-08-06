@@ -53,10 +53,10 @@ export const Encryption = () => {
       <div className="w-full flex items-start justify-center absolute">
         <video
           loop
-          muted
-          autoPlay
+          muted={true}
+          autoPlay={true}
           playsInline
-          preload="false"
+          // preload="true"
           className="w-full h-auto"
         >
           <source src="/videos/encryption-bg.webm" type="video/webm" />

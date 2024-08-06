@@ -97,11 +97,11 @@ export const Skills = () => {
         <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
           <video
             className="w-full h-auto"
-            preload="false"
+            // preload="false"
             playsInline
             loop
-            muted
-            autoPlay
+            muted={true}
+            autoPlay={true}
           >
             <source src="/videos/skills-bg.webm" type="video/webm" />
           </video>
